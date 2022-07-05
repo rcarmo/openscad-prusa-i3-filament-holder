@@ -39,13 +39,13 @@ module feeder() {
                 rotate([-15,0,90])
                     clip();
             translate([10,10,0])
-                rotate([-45,45,90-27])
+                rotate([-45,30,90-27])
                     pipe();
         }
         translate([-45,-45,gap/2-0.1])
            cube([100,100,70]);
         translate([10,10,0])
-           rotate([-45,45,90-27])
+           rotate([-45,30,90-27])
               cylinder(31, 2, 4, center=true);
     }
 }
